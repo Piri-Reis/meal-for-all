@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+
+.form-input{
+    @apply
+    border border-gray-200
+    rounded
+    focus:outline-none focus:ring focus:ring-sky-300
+}
+
+.btn-success {
+    @apply
+    bg-blue-500
+    text-white
+    py-2 px-2
+    rounded
+
+}
+
+.error-class {
+    @apply
+    text-red-600
+    text-sm
+    pb-2
+}
+
+nav a {
+     @apply
+     hover:text-violet-600
+     text-sky-600
+}
+
+
+.numbers {
+    @apply border border-gray-300 rounded m-2 p-4
+}
